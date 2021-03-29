@@ -1,0 +1,105 @@
+{
+  "reparaciones": [
+    {
+      "idReparacion": 4,
+      "idCliente": 2,
+      "nombres": "Sara",
+      "apellidos": "Milagros",
+      "vehiculo": {
+        "tipo": "Auto",
+        "marca": "Subaro",
+        "modelo": "Impresa",
+        "ano": "2017",
+        "color": "Rosado",
+        "matricula": "OAO337",
+        "kilometraje": "33988"
+      },
+      "fechaIngreso": "26-03-2021",
+      "fechaEgreso": "27-03-2021",
+      "estado": "Entregado-Pagado",
+      "detalleReparacion": {
+        "montoTotal": "50",
+        "moneda": "USD",
+        "repuestoComprado": "ninguno",
+        "montoRepuesto": "0",
+        "casoDescripcion": "Cambio de 5 cubiertas"
+      }
+    },
+    {
+      "idReparacion": 3,
+      "idCliente": 5,
+      "nombres": "Sara",
+      "apellidos": "Milagros",
+      "vehiculo": {
+        "tipo": "Camioneta",
+        "marca": "Toyota",
+        "modelo": "Rav4",
+        "ano": "2010",
+        "color": "Azul",
+        "matricula": "OAO337",
+        "kilometraje": "33988"
+      },
+      "fechaIngreso": "16-03-2021",
+      "fechaEgreso": "20-03-2021",
+      "estado": "Entregado-Pagado",
+      "detalleReparacion": {
+        "montoTotal": "1200",
+        "moneda": "USD",
+        "repuestoComprado": "Caja de cambio",
+        "montoRepuesto": "500",
+        "casoDescripcion": "Se le cambia completo la caja de cambio"
+      }
+    },
+    {
+      "idReparacion": 2,
+      "idCliente": 4,
+      "nombres": "Patricio",
+      "apellidos": "Yegros",
+      "vehiculo": {
+        "tipo": "Camioneta",
+        "marca": "Kia",
+        "modelo": "Sorento",
+        "ano": "2010",
+        "color": "Blanco",
+        "matricula": "OAO337",
+        "kilometraje": "33988"
+      },
+      "fechaIngreso": "15-03-2021",
+      "fechaEgreso": "15-03-2021",
+      "estado": "Entregado-Pagado",
+      "detalleReparacion": {
+        "montoTotal": "100",
+        "moneda": "USD",
+        "repuestoComprado": "ninguna",
+        "montoRepuesto": "0",
+        "casoDescripcion": "Cambio de aceite"
+      }
+    },
+    {
+      "idReparacion": 1,
+      "idCliente": 1,
+      "nombres": "Alejandro",
+      "apellidos": "Ferreira",
+      "vehiculo": {
+        "tipo": "Auto",
+        "marca": "Kia",
+        "modelo": "Rio",
+        "ano": "2009",
+        "color": "Rojo",
+        "matricula": "OAO337",
+        "kilometraje": "33988"
+      },
+      "fechaIngreso": "22-02-2021",
+      "fechaEgreso": "25-02-2021",
+      "estado": "Entregado-Pagado",
+      "detalleReparacion": {
+        "montoTotal": "350",
+        "moneda": "USD",
+        "repuestoComprado": "Bujia",
+        "montoRepuesto": "100",
+        "casoDescripcion": "Reparacion de la bujia, danado por golpe de chasis"
+      }
+    }
+
+  ]
+}

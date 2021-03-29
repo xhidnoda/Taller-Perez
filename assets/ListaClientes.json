@@ -1,0 +1,163 @@
+{
+  "cliente": [
+    {
+      "idCliente": 1,
+      "nombres": "Alejandro",
+      "apellidos": "Ferreira",
+      "telefono": "0982432969",
+      "direccion": "Miaflores 425 c/ Santa Elena",
+      "sexo": "M",
+      "email": "cliente1@gmail.com",
+      "ciudad": {
+        "idCiudad": 1,
+        "nombre": "Santiago"
+      },
+      "documento": {
+        "tipoDocumento": "CI",
+        "numeroDocumento": "2193384",
+        "paisDoc": "CHL",
+        "caducidadDoc": "02-04-2022"
+      },
+      "vehiculos": [
+        {
+          "tipo": "Auto",
+          "marca": "Kia",
+          "modelo": "Rio",
+          "ano": "2009",
+          "color": "Rojo",
+          "matricula": "OAO337",
+          "kilometraje": "33988"
+        },
+        {
+          "tipo": "Camioneta",
+          "marca": "Toyota",
+          "modelo": "Rav4",
+          "ano": "2019",
+          "color": "Blanco",
+          "matricula": "AWS432",
+          "kilometraje": "29400"
+        }
+      ]
+    },
+    {
+      "idCliente": 2,
+      "nombres": "Patricio",
+      "apellidos": "Cafre",
+      "telefono": "0982432969",
+      "direccion": "Liberacion c/ Isidro Pitta",
+      "sexo": "M",
+      "email": "cliente2@gmail.com",
+      "ciudad": {
+        "idCiudad": 1,
+        "nombre": "Santiago"
+      },
+      "documento": {
+        "tipoDocumento": "CI",
+        "numeroDocumento": "2193384",
+        "paisDoc": "CHL",
+        "caducidadDoc": "02-04-2022"
+      },
+      "vehiculos": [
+        {
+          "tipo": "Camioneta",
+          "marca": "Kia",
+          "modelo": "Sportage",
+          "ano": "2021",
+          "color": "Gris",
+          "matricula": "VFE431",
+          "kilometraje": "1500"
+        }
+      ]
+    },
+    {
+      "idCliente": 3,
+      "nombres": "Josefina",
+      "apellidos": "Cardenas",
+      "telefono": "0982432969",
+      "direccion": "Liberacion c/ Isidro Pitta",
+      "sexo": "M",
+      "email": "cliente3@gmail.com",
+      "ciudad": {
+        "idCiudad": 1,
+        "nombre": "Santiago"
+      },
+      "documento": {
+        "tipoDocumento": "CI",
+        "numeroDocumento": "332214",
+        "paisDoc": "CHL",
+        "caducidadDoc": "02-04-2022"
+      },
+      "vehiculos": [
+        {
+          "tipo": "Auto",
+          "marca": "Subaru",
+          "modelo": "Impresa",
+          "ano": "2005",
+          "color": "Rosado",
+          "matricula": "AAA004",
+          "kilometraje": "63000"
+        }
+      ]
+    },
+    {
+      "idCliente": 4,
+      "nombres": "Pablo",
+      "apellidos": "Ruiz",
+      "telefono": "0982432969",
+      "direccion": "Liberacion c/ Isidro Pitta",
+      "sexo": "M",
+      "email": "cliente4@gmail.com",
+      "ciudad": {
+        "idCiudad": 1,
+        "nombre": "Santiago"
+      },
+      "documento": {
+        "tipoDocumento": "CI",
+        "numeroDocumento": "987345",
+        "paisDoc": "CHL",
+        "caducidadDoc": "02-04-2022"
+      },
+      "vehiculos": [
+        {
+          "tipo": "Auto",
+          "marca": "Toyota",
+          "modelo": "Tercel",
+          "ano": "2020",
+          "color": "Gris",
+          "matricula": "BRR300",
+          "kilometraje": "15400"
+        }
+      ]
+    },
+    {
+      "idCliente": 5,
+      "nombres": "Anastacio",
+      "apellidos": "Yegros",
+      "telefono": "0982432969",
+      "direccion": "Liberacion c/ Isidro Pitta",
+      "sexo": "M",
+      "email": "cliente5@gmail.com",
+      "ciudad": {
+        "idCiudad": 1,
+        "nombre": "Santiago"
+      },
+      "documento": {
+        "tipoDocumento": "CI",
+        "numeroDocumento": "445667",
+        "paisDoc": "CHL",
+        "caducidadDoc": "02-04-2022"
+      },
+      "vehiculos": [
+        {
+          "tipo": "Camioneta",
+          "marca": "Kia",
+          "modelo": "Sorento",
+          "ano": "2015",
+          "color": "Azul",
+          "matricula": "ATT433",
+          "kilometraje": "55000"
+        }
+      ]
+    }
+  ]
+}
