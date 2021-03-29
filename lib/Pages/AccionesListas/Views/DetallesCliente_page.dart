@@ -493,6 +493,7 @@ class DetallesCliente extends StatelessWidget {
           padding: const EdgeInsets.all(8.0),
           child: Column(
             children: <Widget>[
+              if(controller.tipo == 'editar')
               for (var item in controller.cliente.vehiculos)
                 Padding(
                   padding: const EdgeInsets.all(8.0),
@@ -502,6 +503,7 @@ class DetallesCliente extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
+              
               ElevatedButton(
                   onPressed: () {
                     print('cargar otro vehículo...');
@@ -565,23 +567,7 @@ class DetallesCliente extends StatelessWidget {
                 padding: const EdgeInsets.all(8.0),
                 child: Style.buildText('Vehículos', 17, Colors.black, true)
             ),
-            
-            if(controller.tipo == 'editar')
-              _buildListaVehiculos(),
-
-              ElevatedButton(
-                  onPressed: () {
-                    print('cargar otro vehículo...');
-                    Get.to(() => CargarEditarVehiculo(),
-                        arguments: {'accion': 'cargar'});
-                  },
-                  style: ElevatedButton.styleFrom(
-                      primary: Colors.orange,
-                      onPrimary: Colors.white,
-                      textStyle:
-                          TextStyle(fontSize: 17, fontWeight: FontWeight.bold)),
-                  child: Text('Cargar nuevo vehículo')),
-
+            _buildListaVehiculos(),
             _BuildBtn()
           ],
         ),

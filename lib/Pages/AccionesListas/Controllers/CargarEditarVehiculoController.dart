@@ -1,6 +1,5 @@
 import 'package:taller_perez_test/Config/DefaultImport.dart';
 import 'package:flutter/material.dart';
-import 'package:taller_perez_test/Models/ListaClientes.dart';
 
 
 class CargarEditarVehiculoController extends GetxController {
